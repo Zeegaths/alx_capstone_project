@@ -95,8 +95,8 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #000080; /* Navy blue button color */
-  color: #fff;
+  background-color: black; /* Na button color */
+  color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
