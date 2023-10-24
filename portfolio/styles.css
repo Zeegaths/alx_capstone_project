@@ -1,0 +1,137 @@
+/* Reset some default browser styles */
+html, body, div, h1, h2, h3, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+  background-color: #02023a; /* Navy blue background color */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the text */
+}
+
+/* Create a container to center the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left; /* Reset text alignment for container content */
+}
+
+/* Define global styles for headings with a slide-in effect */
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  transform: translateX(-100px); /* Slide-in from the left */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Apply the slide-in effect on hover */
+h1:hover, h2:hover, h3:hover {
+  transform: translateX(0); /* Slide back to the normal position */
+}
+
+/* Create a header with navy blue background color and centered text */
+header {
+  background-color: #d1d1fd; /* Navy blue background color */
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  color: black;
+  margin: 0 auto; /* Center the header text */
+}
+
+header {
+  color: black;
+}
+/* Create a navigation menu with links centered */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style sections with a navy blue background color and padding */
+section {
+  background-color: #02023a; /* Navy blue background color */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: left; /* Reset text alignment for section content */
+}
+
+/* Style the "Contact Me" form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left; /* Reset text alignment for form content */
+}
+
+form label, form input, form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #000080; /* Navy blue button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style links */
+a {
+  color: #fff; /* White link color */
+  text-decoration: none;
+}
+
+/* Add hover effect to links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design using media queries */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .container {
+    padding: 20px 10px; /* Reduce side padding for smaller screens */
+  }
+
+  /* Center header text on smaller screens */
+  header h1 {
+    text-align: center;
+  }
+}
+
+/* Set the background image for the entire page */
+body {
+  background-image: url('img.jpg'); /* Replace 'background.jpg' with your image file path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
